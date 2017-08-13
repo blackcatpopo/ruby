@@ -31,4 +31,4 @@ select.select_by(:index, 5)
 reload = driver.find_element(:id => "FoxSystemReboot")
 reload.click
 
-driv er.quit()
+driver.quit()
